@@ -10,7 +10,7 @@
  	<viewlet name="plone.logo"/>
 	<viewlet name="plone.personal_bar"/>
 	<viewlet name="plone.site_actions"/>
-	<viewlet name="Nidelven_siteactions"/>
+	<viewlet name="nidelven.siteactions"/>
     <viewlet name="plone.searchbox"/>
     <viewlet name="plone.global_sections"/>
 	<viewlet name="plone.app.i18n.locales.languageselector"/>
@@ -21,7 +21,7 @@
     <viewlet name="plone.skip_links"/>
  	<viewlet name="plone.logo"/>
 	<viewlet name="plone.personal_bar"/>
-	<viewlet name="Nidelven_siteactions"/>
+	<viewlet name="nidelven.siteactions"/>
 	<viewlet name="plone.site_actions"/>
 	<viewlet name="plone.searchbox"/>
     <viewlet name="plone.global_sections"/>
@@ -34,7 +34,7 @@
   </order>
 
   <order manager="plone.portalfooter" skinname="Nidelven Theme">
-  <viewlet name="Nidelven_colophon" />
+  <viewlet name="nidelven.colophon" />
   </order>
 
   <hidden manager="plone.portalheader" skinname="Nidelven Theme">

@@ -6,17 +6,15 @@
   <!-- 'nidelven Theme' Zope 3 browser layer
     Register views, viewlets and resources for this layer to make sure
     they only apply to the 'nidelven Theme' theme.
-    You can also use this layer to override default Plone browser views
-    and viewlets only within the 'nidelven Theme' theme.
   -->
   <interface
       interface=".interfaces.IThemeSpecific"
       type="zope.publisher.interfaces.browser.IBrowserSkinType"
-      name="nidelven Theme"
+      name="nidelven.theme"
       />
   
     <browser:viewlet
-       name="nidelven_siteactions"
+       name="nidelven.siteactions"
        manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
        class="plone.app.layout.viewlets.common.SiteActionsViewlet"
        template="nidelven_siteactions.pt"
@@ -25,7 +23,7 @@
        />
 
     <browser:viewlet
-       name="nidelven_colophon"
+       name="nidelven.colophon"
        manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
        template="nidelven_colophon.pt"
        permission="zope2.View"
@@ -46,26 +44,5 @@
 
   <!-- Zope 3 browser resources -->
 
-  <!-- Resource directory for images
-    See medialog/nidelventheme/browser/images/README.txt
-    for more information about registering images as Zope 3 browser
-    resources.
-  -->
-  <browser:resourceDirectory
-      name="medialog.nidelventheme.images"
-      directory="images"
-      layer=".interfaces.IThemeSpecific"
-      />
-
-  <!-- Resource directory for stylesheets
-    See medialog/nidelventheme/browser/stylesheets/README.txt
-    for more information about registering stylesheets as Zope 3 browser
-    resources.
-  -->
-  <browser:resourceDirectory
-      name="medialog.nidelventheme.stylesheets"
-      directory="stylesheets"
-      layer=".interfaces.IThemeSpecific"
-      />
 
 </configure>

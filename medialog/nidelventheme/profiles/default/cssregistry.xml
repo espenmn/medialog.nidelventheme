@@ -24,7 +24,7 @@
       available keys and default values.
       -->
  <stylesheet title=""
-    id="++resource++medialog.nidelventheme.stylesheets/main.css"
+    id="main.css"
     media="screen" rel="stylesheet" rendering="import"
     cacheable="True" compression="safe" cookable="True"
     enabled="1" expression=""/>

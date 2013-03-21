@@ -3,14 +3,13 @@
     xmlns:cmf="http://namespaces.zope.org/cmf"
     i18n_domain="medialog.nidelventheme">
 
-  <!-- File System Directory Views registration -->
-  <cmf:registerDirectory name="nidelven_kongsbergtheme_custom_images"/>
-  <cmf:registerDirectory name="nidelven_kongsbergtheme_custom_templates"/>
-  <cmf:registerDirectory name="nidelven_kongsbergtheme_styles"/>
-
-  <!-- Note: This could also be done for all folders at once
-       by replacing the previous lines with this one:
-  <cmf:registerDirectory name="skins" directory="skins" recursive="True" />
-  -->
-
+   <!-- File System Directory Views registration -->
+   <cmf:registerDirectory name="medialog_nidelventheme_custom_images"/>
+   <cmf:registerDirectory name="medialog_nidelventheme_custom_templates"/>
+   <cmf:registerDirectory name="medialog_nidelventheme_styles"/>
+ 
+   <!-- Note: This could also be done for all folders at once
+      by replacing the previous lines with this one:
+   <cmf:registerDirectory name="skins" directory="skins" recursive="True" />
+   -->
 </configure>
