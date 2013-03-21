@@ -24,7 +24,7 @@
       available keys and default values.
       -->
  <stylesheet title=""
-    id="main.css"
+    id="nidelven_main.css"
     media="screen" rel="stylesheet" rendering="import"
     cacheable="True" compression="safe" cookable="True"
     enabled="1" expression=""/>

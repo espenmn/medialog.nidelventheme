@@ -12,15 +12,6 @@
       type="zope.publisher.interfaces.browser.IBrowserSkinType"
       name="nidelven.theme"
       />
-  
-    <browser:viewlet
-       name="nidelven.siteactions"
-       manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
-       class="plone.app.layout.viewlets.common.SiteActionsViewlet"
-       template="nidelven_siteactions.pt"
-       permission="zope2.View"
-       layer=".interfaces.IThemeSpecific"
-       />
 
     <browser:viewlet
        name="nidelven.colophon"

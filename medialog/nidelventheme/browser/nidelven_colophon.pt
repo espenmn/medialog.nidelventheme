@@ -3,6 +3,8 @@
      i18n:domain="plone">
   <metal:slot define-slot="colophon" />
     <div class="colophonWrapper">
+    dsfgsdfgsdfg
+    sdfgsdfg<p><hjhkjh></P>
         span tal:replace="structure context/something"> 
     </div>
 </div>
