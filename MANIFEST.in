@@ -1,0 +1,5 @@
+recursive-include docs *
+recursive-include medialog *
+
+global-exclude *pyc
+global-exclude .DS_Store
