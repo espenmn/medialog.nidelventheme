@@ -3,10 +3,7 @@
     xmlns:browser="http://namespaces.zope.org/browser"
     i18n_domain="medialog.nidelventheme">
 
-  <!-- 'nidelven Theme' Zope 3 browser layer
-    Register views, viewlets and resources for this layer to make sure
-    they only apply to the 'nidelven Theme' theme.
-  -->
+
   <interface
       interface=".interfaces.IThemeSpecific"
       type="zope.publisher.interfaces.browser.IBrowserSkinType"
@@ -20,10 +17,7 @@
        permission="zope2.View"
        layer=".interfaces.IThemeSpecific"
        />
-  
-  <!-- A browser view to cook all css and js resources so you dont need to 
-       restart plone or put portal_css in debug mode to see the changes
-  -->
+   
        
     <browser:page 
     	name="cookview"
@@ -33,7 +27,6 @@
         layer=".interfaces.IThemeSpecific"
     />  
 
-  <!-- Zope 3 browser resources -->
 
 
 </configure>

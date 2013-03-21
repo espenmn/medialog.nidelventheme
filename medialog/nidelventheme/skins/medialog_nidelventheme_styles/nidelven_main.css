@@ -1,3 +1,5 @@
+/* @override http://localhost:8080/espen/portal_css/Nidelven%20Theme/nidelven_main.css */
+
 /* Stylesheet for the 'Kongsberg Theme' Plone theme */
 
 /* Espen Moe-Nilssen, 2012, espen at medialog dot no */
@@ -42,13 +44,12 @@ body {
 	display: block;
 	padding: 0;
 	table-layout: fixed;
-	max-width:
-
-982px /* */
+	max-width: 982px;
 }
 
 #portal-logo {
-	width: 181px;
+	width: 250px;
+	height: 80px;
 	float: left;
 	margin-left: -35px;
 }
