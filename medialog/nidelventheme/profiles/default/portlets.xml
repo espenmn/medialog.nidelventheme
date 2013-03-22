@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<portlets>
+
+ <assignment name="news" category="context" key="/"
+    manager="plone.rightcolumn" type="portlets.News" visible="True">
+  <property name="state">
+   <element>published</element>
+  </property>
+  <property name="count">5</property>
+ </assignment>
+ <assignment name="navigation" category="context" key="/"
+    manager="plone.leftcolumn" type="portlets.Navigation" visible="True">
+  <property name="includeTop">False</property>
+  <property name="currentFolderOnly">False</property>
+  <property name="name"/>
+  <property name="topLevel">0</property>
+  <property name="root"/>
+  <property name="bottomLevel">0</property>
+ </assignment>
+  <assignment name="placeholder-portlet" category="context" key="/"
+    manager="plone.rightcolumn"
+    type="medialog.portlet.placeholder.PlaceholderPortlet" visible="True">
+  <property name="setheight">15</property>
+ </assignment>
+  <assignment name="placeholder-portlet" category="context" key="/"
+    manager="plone.leftcolumn"
+    type="medialog.portlet.placeholder.PlaceholderPortlet" visible="True">
+  <property name="setheight">15</property>
+ </assignment>
+ 
+</portlets>

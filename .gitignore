@@ -24,3 +24,9 @@ PasteScript-1.7.5-py2.6.egg
 PasteScript-1.7.5-py2.6.egg/
 PasteDeploy-1.5.0-py2.6.egg/
 PasteDeploy-1.5.0-py2.6.egg
+
+*.pyc
+
+*.pyc
+
+*.pyc

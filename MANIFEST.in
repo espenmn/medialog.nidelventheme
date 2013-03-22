@@ -5,4 +5,4 @@ global-exclude *pyc
 global-exclude .DS_Store
 global-exclude Paste*
 global-exclude PasteScript*
-global-exclude PasteDeploy
+global-exclude PasteDeploy/

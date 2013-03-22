@@ -1,5 +1,5 @@
-<div id="nidelven-colophon">
+<div id="nidelven-colophon" tal:define="coltext context/portal_url/portal_properties/nidelven_properties/colophon">
   <div class="colophonWrapper">
-    <span tal:replace="structure context/portal_properties/nidelven_properties/colophon" />
+    <span tal:replace="structure coltext" />
   </div>
 </div>

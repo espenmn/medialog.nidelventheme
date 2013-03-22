@@ -17,8 +17,7 @@
  
  <object name="nidelven_properties" meta_type="Plone Property Sheet">
   <property name="title"></property>
-  <property name="colophon" type="string">&lt;p&gt;hallo&lt;/p&gt;</property>
-  <property name="logoname" type="string">logo.png</property>
+  <property name="colophon" type="string">&lt;p&gt;Denne teksten kan forandres i /portal_properties/nidelvenproperties &lt;/p&gt;</property>
  </object>
 
 

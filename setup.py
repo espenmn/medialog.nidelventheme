@@ -29,6 +29,7 @@ setup(name='medialog.nidelventheme',
           'webcouturier.dropdownmenu',
           'wildcard.foldercontents',
           'medialog.portlet.placeholder',
+          'Products.MenuNavigation',
           # -*- Extra requirements: -*-
       ],
       entry_points="""

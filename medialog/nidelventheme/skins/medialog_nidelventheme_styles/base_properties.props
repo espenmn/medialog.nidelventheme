@@ -1,6 +1,6 @@
 title:string=Kongsberg Theme's color, font, logo and border defaults
 
-plone_skin:string=Kongsberg Theme
+plone_skin:string=Nidelven Theme
 
 logoName:string=logo.png
 
