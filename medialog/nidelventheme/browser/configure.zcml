@@ -15,10 +15,8 @@
        manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
        template="nidelven_colophon.pt"
        permission="zope2.View"
-       layer=".interfaces.IThemeSpecific"
        />
-   
-       
+          
     <browser:page 
     	name="cookview"
   	    for="*"
@@ -26,7 +24,5 @@
   	    class=".views.CookView"
         layer=".interfaces.IThemeSpecific"
     />  
-
-
 
 </configure>

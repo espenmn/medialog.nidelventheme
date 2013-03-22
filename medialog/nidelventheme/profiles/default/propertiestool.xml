@@ -14,5 +14,12 @@
  <object name="navtree_properties" meta_type="Plone Property Sheet">
   <property name="topLevel" type="int">0</property>
  </object>
+ 
+ <object name="nidelven_properties" meta_type="Plone Property Sheet">
+  <property name="title"></property>
+  <property name="colophon" type="string">&lt;p&gt;hallo&lt;/p&gt;</property>
+  <property name="logoname" type="string">logo.png</property>
+ </object>
+
 
 </object>

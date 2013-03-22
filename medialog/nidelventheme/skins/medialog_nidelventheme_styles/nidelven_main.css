@@ -1,5 +1,4 @@
-/* @override http://localhost:8080/espen/portal_css/Nidelven%20Theme/nidelven_main.css */
-
+ 
 /* Stylesheet for the 'Kongsberg Theme' Plone theme */
 
 /* Espen Moe-Nilssen, 2012, espen at medialog dot no */
@@ -31,8 +30,8 @@ body {
 }
 
 #portal-header {
+	position: relative;
 	height: 100px;
-	background-image: url(heading_spacetec.png);
 	background-repeat: no-repeat;
 	background-position: 140px 45px;
 }
@@ -187,11 +186,12 @@ ul#portal-siteactions li a {
 /*Portal Search box*/
 
 #portal-searchbox {
-	width: 210px;
-	float: right;
+	width: 209px;
+	position: absolute;
 	padding: 0;
 	height: 29px;
-	margin-top: 63px;
+	top: 102px;
+	right: 0;
 	background: url('bg_topmenu.jpg');
 }
 
@@ -276,10 +276,11 @@ dl.searchResults {
 
 #portal-globalnav {
 	display: block;
+	position: absolute;
 	width: auto;
+	top:  94px;
+	right: 209px;
 	padding: 0;
-	float: right;
-	margin-top: 63px;
 	border-right: 1px solid #333;
 	height: 29px;
 }
@@ -783,6 +784,7 @@ dt.portletHeader  a {
 
 /*footer and colophon*/
 
+#nidelven-colophon,
 #portal-colophon,
 #portal-footer {
 	background-color: #E3E0D7;
@@ -809,3 +811,4 @@ dt.portletHeader  a {
 }
 
 /* @end */
+ 

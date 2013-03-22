@@ -1,10 +1,5 @@
-<div id="portal-colophon"
-     metal:define-macro="colophon"
-     i18n:domain="plone">
-  <metal:slot define-slot="colophon" />
-    <div class="colophonWrapper">
-    dsfgsdfgsdfg
-    sdfgsdfg<p><hjhkjh></P>
-        span tal:replace="structure context/something"
-    </div>
+<div id="nidelven-colophon">
+  <div class="colophonWrapper">
+    <span tal:replace="structure context/portal_properties/nidelven_properties/colophon" />
+  </div>
 </div>
