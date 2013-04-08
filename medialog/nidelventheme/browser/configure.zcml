@@ -43,6 +43,14 @@
         permission="plone.app.portlets.ManagePortlets"
     />
     
+    <!-- Override webcoutier global sections viewlet -->
+    <browser:viewlet
+        name="nidelventheme.global_sections"
+        manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+        class="webcouturier.dropdownmenu.dropdown.DropdownMenuViewlet"
+        layer="webcouturier.dropdownmenu.interfaces.IDropdownSpecific"
+        permission="zope2.View"
+        />
 
 </configure>
 
