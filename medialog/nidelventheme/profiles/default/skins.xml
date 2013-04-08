@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- This file holds the setup configuration for the portal_skins tool -->
+
+ <object name="portal_skins" allow_any="False" cookie_persistence="False"
+   default_skin="Nidelven Theme">
+
+ 
+ <object name="medialog_nidelventheme_custom_images"
+    meta_type="Filesystem Directory View"
+    directory="medialog.nidelventheme:skins/medialog_nidelventheme_custom_images"/>
+ <object name="medialog_nidelventheme_custom_templates"
+    meta_type="Filesystem Directory View"
+    directory="medialog.nidelventheme:skins/medialog_nidelventheme_custom_templates"/>
+ <object name="medialog_nidelventheme_styles"
+    meta_type="Filesystem Directory View"
+    directory="medialog.nidelventheme:skins/medialog_nidelventheme_styles"/>
+ 
+ <skin-path name="Nidelven Theme" based-on="Plone Classic Theme">
+  <layer name="medialog_nidelventheme_custom_images"
+     insert-after="custom"/>
+  <layer name="medialog_nidelventheme_custom_templates"
+     insert-after="medialog_nidelventheme_custom_images"/>
+  <layer name="medialog_nidelventheme_styles"
+     insert-after="medialog_nidelventheme_custom_templates"/>
+ </skin-path>
+
+</object>

@@ -1,0 +1,22 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="medialog.nidelventheme">
+
+  <genericsetup:registerProfile
+      name="default"
+      title="Nidelven Theme"
+      directory="profiles/default"
+      description='Installs the "Nidelven Plone Theme".'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <genericsetup:importStep
+      name="medialog.nidelventheme.various"
+      title="Nidelven Theme: miscellaneous import steps"
+      description="Various import steps that are not handled by GS import/export handlers."
+      handler="medialog.nidelventheme.setuphandlers.setupVarious">
+    <depends name="skins"/>
+  </genericsetup:importStep>
+ 
+</configure>

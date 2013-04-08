@@ -1,0 +1,136 @@
+/* @override ropdown-menu.css */
+
+ 
+ 
+* html #portal-globalnav {
+position: absolute;
+}
+* html #portal-globalnav {
+height: 1%;
+}
+#portal-globalnav:after {
+content: "";
+clear: both;
+display: block;
+visibility: hidden;
+}
+ul.submenu {
+position: absolute;
+left: -999em;
+margin: 0;
+width: 100%;
+margin: 1px auto;
+text-align: left;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+display: block;
+min-height: 250px;
+background: url(brown.png) repeat-y center;
+z-index: 20;
+}
+#portal-globalnav ul.submenu li  a  {
+display: block;
+width: 466px;
+padding: 6px 10px 6px 20px;
+margin: 1px 0 1px 0px;
+height: auto;
+color: #363636 !important;
+font-weight: normal;
+font-style: normal;
+background:  url(arrow.gif) no-repeat 6px 8px;
+}
+#portal-top #portal-globalnav  ul.submenu a:hover {
+background-color: #a6a49c;
+color: #FFF !important;
+}
+*:first-child+html #portal-globalnav ul.submenu a {
+height: 1%;
+}
+/* */
+* html #portal-globalnav ul.submenu a {
+height: 1%;
+}
+/* */
+/* */
+#portal-globalnav li ul ul {
+z-index: 10;
+top: 0.4em;
+left: -999em;
+}
+
+ul.sentrer {
+	width: 980px;
+	margin: 0 auto;
+}
+
+ul.sentrer li.infotext {
+	width: 150px;
+	padding-right: 50px;
+	margin-right: 0;
+	margin-top: 8px;
+	float: left;
+	list-style-image: none;
+	list-style-type: none;
+	border-bottom: 0 none !important;
+}
+
+li.infotext h1 {
+	border-bottom: 0 none;
+}
+
+#portal-globalnav ul.sentrer li {
+min-height: 30px;
+line-height: 17px;
+overflow-y: visible;
+padding: 0;
+text-align: left;
+border-right: 0 none;
+border-bottom: 1px solid #a6a49c;
+	list-style-image: none;
+	list-style-type: none;
+}
+
+
+ul.sentrer li {
+	width: 490px;
+	margin-right: 270px;
+	float: right;
+}
+
+ul.submenu.patron li {
+	list-style-image: none;
+	list-style-type: none;
+}
+
+
+#portal-globalnav li:hover ul ul,
+#portal-globalnav li:hover ul ul ul,
+#portal-globalnav li:hover ul ul ul ul,
+#portal-globalnav li.sfhover ul ul,
+#portal-globalnav li.sfhover ul ul ul,
+#portal-globalnav li.sfhover ul ul ul ul {
+left: -999em;
+}
+#portal-globalnav li:hover ul,
+#portal-globalnav li li:hover ul,
+#portal-globalnav li li li:hover ul,
+#portal-globalnav li li li li:hover ul,
+#portal-globalnav li.sfhover ul,
+#portal-globalnav li li.sfhover ul,
+#portal-globalnav li li li.sfhover ul,
+#portal-globalnav li li li li.sfhover ul {
+left: 0;
+}
+/* */
+#post-sections-clear {
+height: 1px;
+margin-bottom: -3px;
+}
+/* */
+*:first-child+html #post-sections-clear {
+margin-bottom: -2px;
+}
+* html #post-sections-clear {
+margin-bottom: -2px;
+}
