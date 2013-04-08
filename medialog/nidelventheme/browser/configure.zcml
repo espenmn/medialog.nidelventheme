@@ -47,8 +47,9 @@
     <browser:viewlet
         name="nidelventheme.global_sections"
         manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
-        class="webcouturier.dropdownmenu.dropdown.DropdownMenuViewlet"
-        layer="webcouturier.dropdownmenu.interfaces.IDropdownSpecific"
+        class="webcouturier.dropdownmenu.browser.dropdown.DropdownMenuViewlet"
+        layer="webcouturier.dropdownmenu.browser.interfaces.IDropdownSpecific"
+        template="global_sections.pt"
         permission="zope2.View"
         />
 
