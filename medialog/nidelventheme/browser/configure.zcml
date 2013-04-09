@@ -41,6 +41,7 @@
         name="manage-topportlets"
         template="managetopportlets.pt"
         permission="plone.app.portlets.ManagePortlets"
+        layer=".interfaces.IThemeSpecific"
     />
     
     <!-- Override webcoutier global sections viewlet -->
@@ -48,7 +49,7 @@
         name="nidelventheme.global_sections"
         manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
         class="webcouturier.dropdownmenu.browser.dropdown.DropdownMenuViewlet"
-        layer="webcouturier.dropdownmenu.browser.interfaces.IDropdownSpecific"
+        layer=".interfaces.IThemeSpecific"
         template="global_sections.pt"
         permission="zope2.View"
         />
