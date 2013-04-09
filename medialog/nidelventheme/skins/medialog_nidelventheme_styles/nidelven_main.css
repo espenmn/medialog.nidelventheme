@@ -42,9 +42,7 @@ body {
 .section-front-page #portal-top {
 	background: url(bgtop.jpg);
 }
-.section-front-page #portal-header {
-	background: url(bgtop.jpg);
-}
+
 #topportlets {
 	margin: 0 auto -3px;
 	padding: 0;
