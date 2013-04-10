@@ -7,7 +7,7 @@
   <interface
       interface=".interfaces.IThemeSpecific"
       type="zope.publisher.interfaces.browser.IBrowserSkinType"
-      name="nidelven.theme"
+      name="Nidelven Theme"
       />
 
     <browser:viewlet
@@ -49,10 +49,10 @@
         name="nidelventheme.global_sections"
         manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
         class="webcouturier.dropdownmenu.browser.dropdown.DropdownMenuViewlet"
-        layer=".interfaces.IThemeSpecific"
         template="global_sections.pt"
         permission="zope2.View"
-        />
+        layer=".interfaces.IThemeSpecific"
+    />
 
 </configure>
 
