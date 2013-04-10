@@ -353,6 +353,7 @@ dl.searchResults {
  	padding: 0;
  	border-right: 1px solid #333;
  	height: 29px;
+ 		background-color: #506272;
 }
 
 #portal-globalnav > li {
