@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.2'
+version = '0.3'
 
 setup(name='medialog.nidelventheme',
       version=version,
@@ -27,7 +27,6 @@ setup(name='medialog.nidelventheme',
           'setuptools',
           'plonetheme.classic',
           'webcouturier.dropdownmenu',
-          'wildcard.foldercontents',
           'medialog.portlet.placeholder',
           'Products.MenuNavigation',
           # -*- Extra requirements: -*-
