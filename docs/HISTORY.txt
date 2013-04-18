@@ -1,6 +1,12 @@
 Changelog
 =========
 
+0.4
+-------------------
+
+Added photo album view
+
+
 0.1dev (unreleased)
 -------------------
 
