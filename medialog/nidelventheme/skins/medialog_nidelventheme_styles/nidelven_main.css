@@ -3,10 +3,6 @@
 /* Stylesheet for the 'Nidelven Theme' Plone theme */
 /* Espen Moe-Nilssen, 2013, espen at medialog dot no */
 
-#portal-globalnav ul.submenu > li {
- border-bottom: 0 none;
-}
-
 body {
 	position: relative;
 	margin: 0px;
@@ -420,6 +416,10 @@ li#portaltab-index_html.selected {
 
 #portal-globalnav img {
 	margin: 0 0 2px;
+}
+
+#portal-globalnav ul.submenu > li {
+ border-bottom: 0 none;
 }
 
 
