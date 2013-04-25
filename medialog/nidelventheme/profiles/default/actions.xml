@@ -4,7 +4,7 @@
  <action-provider name="portal_workflow"/>
  <action-provider name="portal_types"/>
  <action-provider name="portal_actions"/>
- <object name="site_actions" meta_type="CMF Action Category">
+ <object name="site_actions" meta_type="CMF Action Category" purge="True">
   <property name="title"></property>
   <object name="login" meta_type="CMF Action">
    <property name="title">Login</property>
