@@ -8,6 +8,7 @@
     <viewlet name="plone.skip_links"/>
  	<viewlet name="plone.logo"/>
 	<viewlet name="plone.personal_bar"/>
+	<viewlet name="kongsberg.siteactions"/>
 	<viewlet name="plone.site_actions"/>
 	<viewlet name="plone.searchbox"/>
     <viewlet name="plone.global_sections"/>
