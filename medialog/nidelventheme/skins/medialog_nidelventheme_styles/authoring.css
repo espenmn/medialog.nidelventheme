@@ -109,7 +109,7 @@
         Opera is the only one that cares) and we need it in order to catch
         the position:absolute bubbling up */
     position: relative;
-    margin: 18px 0 0 0 0;
+    margin: 17px 0 0 0;
     padding: 0;
 }
 .actionMenu .actionMenuHeader {
