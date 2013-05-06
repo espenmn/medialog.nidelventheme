@@ -198,7 +198,7 @@ div#portal-personaltools-wrapper {
 	overflow: visible;
 }
 
-dl#portal-personaltools.actionMenu.deactivated {
+dl#portal-personaltools.actionMenu{
 	margin-top: 2px
 }
 
