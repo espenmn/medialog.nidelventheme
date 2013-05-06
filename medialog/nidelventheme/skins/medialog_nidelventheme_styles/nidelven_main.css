@@ -1,4 +1,7 @@
-/* @override http://localhost:8080/top/portal_css/Nidelven%20Theme/nidelven_main.css */
+/* @override 
+	http://localhost:8080/top/portal_css/Nidelven%20Theme/nidelven_main.css
+	http://kvenna.nidelven-it.no:8080/PloneMay4th-2/portal_css/Nidelven%20Theme/nidelven_main.css
+*/
 
 /* Stylesheet for the 'Nidelven Theme' Plone theme */
 /* Espen Moe-Nilssen, 2013, espen at medialog dot no */
@@ -193,6 +196,10 @@ div#portal-personaltools-wrapper {
 	padding-top: 8px;
 	float: right;
 	overflow: visible;
+}
+
+dl#portal-personaltools.actionMenu.deactivated {
+	margin-top: 2px
 }
 
 a#user-name {
