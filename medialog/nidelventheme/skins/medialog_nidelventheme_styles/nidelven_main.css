@@ -1,4 +1,5 @@
  
+ 
 /* Stylesheet for the 'Nidelven Theme' Plone theme */
 /* Espen Moe-Nilssen, 2013, espen at medialog dot no */
 
@@ -230,11 +231,7 @@ ul#portal-siteactions li {
 	border-right: 1px solid white;
 	line-height: 20px;
 }
-
-ul#portal-siteactions li:first-child {
-	
-}
-
+ 
 li#siteaction-login  {
    border-right: 0 none !important;	
    margin-right: -65px;
@@ -262,9 +259,16 @@ ul#portal-siteactions li a {
  	padding: 0;
  	height: 29px;
  	top: 102px;
+ 	z-index:99;
 	right: 0;
  	background: url('bg_topmenu.jpg');
  }
+form#livesearch0,
+div#LSResult.LSResult {
+	padding: 0;
+	margin: 0 !important;;
+}
+ 
  
 input#searchGadget {
 	padding: 3px 5px;
@@ -400,7 +404,7 @@ dl.searchResults {
 	height: 29px;
 }
 
-#portal-globalnav li:last-child.selected {
+#portal-globalnav li:first-child.selected {
 	background: none url(bg_topmenuselectedcornerEnd.png) no-repeat right;
 	margin-right: -1px;
 	padding-left: 1px;
@@ -977,4 +981,4 @@ dt.portletHeader  a {
 }
 
 /* @end */
-  
+ 

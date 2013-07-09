@@ -1,6 +1,14 @@
 Changelog
 =========
 
+0.5
+-------------------
+
+- globalnav reverses items, so it is possible to float right
+- live search edited (and is now enabled)
+- drop down menu is placed relatively to the globalnav
+ 
+
 0.4
 -------------------
 
