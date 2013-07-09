@@ -259,7 +259,7 @@ ul#portal-siteactions li a {
  	padding: 0;
  	height: 29px;
  	top: 102px;
- 	z-index:99;
+ 	z-index:8;
 	right: 0;
  	background: url('bg_topmenu.jpg');
  }
