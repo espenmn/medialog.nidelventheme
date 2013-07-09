@@ -8,7 +8,7 @@
 
     <ul id="portal-globalnav"
         tal:define="selected_tab python:view.selected_portal_tab"
-        ><tal:tabs tal:repeat="tab portal_tabs"
+        ><tal:tabs tal:repeat="tab python:reversed(portal_tabs)"
         ><li tal:define="tid tab/id;
                          subitems python:view.getTabObject(tabUrl = tab['url'], tabPath = tab.get('path'));
                          item_clickable python:view.enable_parent_clickable or not subitems"

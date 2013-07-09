@@ -1,3 +1,4 @@
+ 
 * html #portal-globalnav {
 position: absolute;
 }
@@ -42,8 +43,8 @@ color: #FFF !important;
 }
 
 #portal-top #portal-globalnav ul.submenu.patron {
-width: 100%;
-position: fixed;
+width: 981px;
+position: absolute;
 padding: 12px 0;
 }
 
@@ -92,6 +93,8 @@ border-right: 0 none;
 border-bottom: 1px solid #a6a49c;
 	list-style-image: none;
 	list-style-type: none;
+	padding-bottom: 2px;
+	margin-bottom: 2px;
 }
 
 
@@ -137,3 +140,4 @@ margin-bottom: -2px;
 * html #post-sections-clear {
 margin-bottom: -2px;
 }
+ 
