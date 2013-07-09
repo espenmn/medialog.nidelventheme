@@ -269,6 +269,9 @@ div#LSResult.LSResult {
 	margin: 0 !important;;
 }
  
+.hidden-desktop {
+	display: none;
+}
  
 input#searchGadget {
 	padding: 3px 5px;
