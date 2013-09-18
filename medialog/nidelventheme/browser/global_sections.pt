@@ -8,7 +8,7 @@
 
     <ul id="portal-globalnav"
         tal:define="selected_tab python:view.selected_portal_tab"
-        ><tal:tabs tal:repeat="tab python:reversed(portal_tabs)"
+        ><tal:tabs tal:repeat="tab portal_tabs"
         ><li tal:define="tid tab/id;
                          subitems python:view.getTabObject(tabUrl = tab['url'], tabPath = tab.get('path'));
                          item_clickable python:view.enable_parent_clickable or not subitems"
@@ -28,11 +28,7 @@
             ><tal:block tal:condition="subitems">
                     <ul class="submenu patron">
                     <li><ul class="sentrer">
-                        <metal:block tal:define="menuDesc python:context.info_portlet_get(context)">
-                            <metal:block tal:condition="menuDesc">
-                                <li class="infotext greytext" tal:content="structure menuDesc"></li>
-                            </metal:block>
-                        </metal:block>
+                         <li class="infotext greytext"> <tal:info tal:replace="structure context/info_portlet_get" /></li>
                     <tal:subitems tal:replace="structure subitems">
                         <tal:comment replace="nothing">Submenu</tal:comment>
                     </tal:subitems>
@@ -40,6 +36,5 @@
                      </li>
                   </ul>
             </tal:block></li></tal:tabs>
-</ul>
-
-</tal:sections>x
+    </ul>
+</tal:sections>
