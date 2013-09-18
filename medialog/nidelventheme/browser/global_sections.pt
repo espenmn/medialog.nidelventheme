@@ -28,7 +28,7 @@
             ><tal:block tal:condition="subitems">
                     <ul class="submenu patron">
                     <li><ul class="sentrer">
-                        <metal:block tal:define="menuDesc python:context.info_portlet_get(request.resolve_url(tab['url']))">
+                        <metal:block tal:define="menuDesc python:context.info_portlet_get(context)">
                             <metal:block tal:condition="menuDesc">
                                 <li class="infotext greytext" tal:content="structure menuDesc"></li>
                             </metal:block>
@@ -42,4 +42,4 @@
             </tal:block></li></tal:tabs>
 </ul>
 
-</tal:sections>
+</tal:sections>x
