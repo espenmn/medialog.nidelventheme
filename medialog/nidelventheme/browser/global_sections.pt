@@ -25,10 +25,11 @@
                <img src="topMenuArrow.png" alt="arrow">
            </div>
             </a
-            ><tal:block tal:condition="subitems">
+             ><tal:block tal:condition="subitems">
                     <ul class="submenu patron">
                     <li><ul class="sentrer">
-                         <li class="infotext greytext"><span tal:replace="structure context/info_portlet_get" /></li>
+                    <li class="infotext greytext"><tal:info tal:replace="tab/description" /></li>
+                    
                     <tal:subitems tal:replace="structure subitems">
                         <tal:comment replace="nothing">Submenu</tal:comment>
                     </tal:subitems>
@@ -36,5 +37,6 @@
                      </li>
                   </ul>
             </tal:block></li></tal:tabs>
-    </ul>
+</ul>
+
 </tal:sections>

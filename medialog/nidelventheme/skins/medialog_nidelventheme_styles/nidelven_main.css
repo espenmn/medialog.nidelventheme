@@ -303,10 +303,11 @@ div.searchSection {
 
 legend#livesearchLegend {
 	background: transparent;
+	display: none;
 }
-
 #LSShadow fieldset.livesearchContainer {
 	background: white;
+	margin-top: 1px;
 }
 
 .searchResults dt {
