@@ -4,6 +4,6 @@
     <dependencies>
     <dependency>profile-medialog.portlet.placeholder:default</dependency>
 	<dependency>profile-webcouturier.dropdownmenu:default</dependency>
-	<dependency>profile-Products.MenuNavigation:Products.MenuNavigation</dependency>
+	<dependency>profile-medialog.foldertextfield:default</dependency>
   </dependencies>
 </metadata>

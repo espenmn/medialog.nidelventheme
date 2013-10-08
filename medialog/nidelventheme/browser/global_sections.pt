@@ -28,7 +28,11 @@
              ><tal:block tal:condition="subitems">
                     <ul class="submenu patron">
                     <li><ul class="sentrer">
-                    <li class="infotext greytext"><p tal:content="tab/description" /></li>         
+                    <li class="infotext greytext">
+                        <p tal:define="tid  tab/id;" 
+                           tal:condition="exists:context/?tid/text"   
+                           class="greytext" tal:content="structure context/?tid/text" />
+                    </li>  
                     <tal:subitems tal:replace="structure subitems">
                         <tal:comment replace="nothing">Submenu</tal:comment>
                     </tal:subitems>
